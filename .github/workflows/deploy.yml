@@ -3,7 +3,7 @@ name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - main # main 브랜치에 변경이 있을 때 실행
+      - master # main 브랜치에 변경이 있을 때 실행
 
 jobs:
   build:
@@ -29,6 +29,6 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        external_repository: username/username.github.io # 배포용 저장소
-        publish_branch: main # 배포용 저장소의 브랜치
+        external_repository: ilzelda/ilzelda.github.io # 배포용 저장소
+        publish_branch: master # 배포용 저장소의 브랜치
         publish_dir: ./public

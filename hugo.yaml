@@ -1,6 +1,6 @@
 theme: E25DX
 
-enableGitInfo: false
+enableGitInfo: true
 
 defaultContentLanguage: en
 
@@ -9,7 +9,7 @@ languages:
     weight: 1
     languageName: English
     languageCode: en-US
-    contentDir: content/en
+    contentDir: content
     title: Site Name
     params:
       description: Site Description

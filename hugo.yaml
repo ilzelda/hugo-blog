@@ -9,7 +9,7 @@ languages:
     weight: 1
     languageName: English
     languageCode: en-US
-    contentDir: content
+    contentDir: content\en
     title: Site Name
     params:
       description: Site Description

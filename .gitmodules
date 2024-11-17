@@ -1,7 +1,3 @@
 [submodule "themes/E25DX"]
 	path = themes/E25DX
 	url = https://github.com/dumindu/E25DX.git
-[submodule "public"]
-	path = public
-	url = https://github.com/ilzelda/ilzelda.github.io.git
-	branch = master

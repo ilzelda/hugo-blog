@@ -28,7 +28,7 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.PERSONAL_TOKEN }}
         external_repository: ilzelda/ilzelda.github.io # 배포용 저장소
         publish_branch: master # 배포용 저장소의 브랜치
         publish_dir: ./public

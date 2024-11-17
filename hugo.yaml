@@ -48,3 +48,9 @@ params:
     headingSegment2: Theme
     description: Description
     getStartedPath: /docs
+    
+outputs:
+  home: ["HTML", "RSS"] # 홈 페이지에서 HTML과 RSS 모두 생성
+  section: ["HTML"]
+  taxonomy: ["HTML"]
+  taxonomyTerm: ["HTML"]

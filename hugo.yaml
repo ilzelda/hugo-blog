@@ -1,4 +1,4 @@
-baseURL = "https://ilzelda.github.io/hugo-blog/"
+baseURL : https://ilzelda.github.io/hugo-blog/
 
 theme: E25DX
 

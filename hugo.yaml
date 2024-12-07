@@ -10,9 +10,9 @@ languages:
     languageName: English
     languageCode: en-US
     contentDir: content\en
-    title: Site Name
+    title: ilzelda's blog
     params:
-      description: Site Description
+      description: second brain
 
 services:
   googleAnalytics:
@@ -44,8 +44,8 @@ params:
     url: https://github.com/repo
 
   home:
-    heading: Your next
-    headingSegment2: Theme
+    heading: Ilzelda
+    headingSegment2: Blog
     description: Description
     getStartedPath: /docs
     

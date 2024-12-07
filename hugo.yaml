@@ -1,3 +1,5 @@
+baseURL = "https://ilzelda.github.io/hugo-blog/"
+
 theme: E25DX
 
 enableGitInfo: false
@@ -31,17 +33,17 @@ markup:
 
 params:
   project:
-    startYear: 2022
-    presentYear: 2024
+    startYear: 2025
+    presentYear: 2025
     github:
-      repo: repo
+      repo: https://github.com/ilzelda
     themeColor:
       light: '#ffffff'
       dark: '#101010'
 
   author:
-    name: Name
-    url: https://github.com/repo
+    name: ilzelda
+    url: https://github.com/ilzelda
 
   home:
     heading: Ilzelda
